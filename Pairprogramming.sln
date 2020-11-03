@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pairprogramming", "Pairprogramming\Pairprogramming.csproj", "{6B77D0A7-F76F-43F3-8A5B-E1E284BBF5E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pairprogramming", "Pairprogramming\Pairprogramming.csproj", "{6B77D0A7-F76F-43F3-8A5B-E1E284BBF5E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelLib", "ModelLib\ModelLib.csproj", "{6B6D6C96-97FB-4010-8AC2-5A45C93D4FD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestRecordsController", "XUnitTestRecordsController\XUnitTestRecordsController.csproj", "{EFDD42DB-F1C6-4132-B054-199E9CDA00FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{6B77D0A7-F76F-43F3-8A5B-E1E284BBF5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B77D0A7-F76F-43F3-8A5B-E1E284BBF5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B77D0A7-F76F-43F3-8A5B-E1E284BBF5E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B6D6C96-97FB-4010-8AC2-5A45C93D4FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B6D6C96-97FB-4010-8AC2-5A45C93D4FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B6D6C96-97FB-4010-8AC2-5A45C93D4FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B6D6C96-97FB-4010-8AC2-5A45C93D4FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFDD42DB-F1C6-4132-B054-199E9CDA00FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFDD42DB-F1C6-4132-B054-199E9CDA00FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFDD42DB-F1C6-4132-B054-199E9CDA00FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFDD42DB-F1C6-4132-B054-199E9CDA00FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
