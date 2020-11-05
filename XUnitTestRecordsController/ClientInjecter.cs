@@ -10,10 +10,10 @@ using Pairprogramming;
 
 namespace XUnitTestRecordsController
 {
-    class ClientInjecter
+    public class ClientInjecter
     {
         //her laver vi en context til 
-        protected readonly string URL = "https://pairprogrammingzealand.azurewebsites.net";
+        protected readonly string URL = "http://localhost:5000/api/records";
         protected readonly HttpClient testClient;
 
         protected ClientInjecter()

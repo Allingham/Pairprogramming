@@ -24,6 +24,14 @@ namespace ModelLib
             Genre = genre;
         }
 
+        public Record(string title, string artist, int duration, int yearOfPublication, string genre){
+            Title = title;
+            Artist = artist;
+            Duration = duration;
+            YearOfPublication = yearOfPublication;
+            Genre = genre;
+        }
+
         public Record()
         {
 
